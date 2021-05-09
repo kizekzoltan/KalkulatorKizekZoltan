@@ -56,8 +56,8 @@ function szamolasTeglatest(){
       alert("Ez az érték nem megfelelő!");
       return false;
     }
-    var ertekM=document.getElementById("magassag").value;
-    if (ertekM=="0"){
+    var ertekS=document.getElementById("sugar").value;
+    if (ertekS=="0"){
         alert("Ez az érték nem megfelelő!");
         return false;
     }
