@@ -1,0 +1,1 @@
+Ez egy Kizek Zoltán által készített kalkul-tor. 
