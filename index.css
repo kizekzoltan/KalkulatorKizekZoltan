@@ -1,0 +1,17 @@
+body{
+    background: url("https://a-static.besthdwallpaper.com/3d-geometriai-formak-tapeta-1920x1080-16982_48.jpg")
+    no-repeat center fixed;
+    background-size: cover;
+}
+
+.card-body{
+    background-color: rgb(150, 150, 150, 0.3);
+}
+
+.card{
+    margin: 15px;
+}
+
+.card img{
+    height: 450px;
+}

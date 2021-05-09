@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="index.css">
+    <title>Kocka</title>
+
+    <script src="javasrcipt.js"></script>
+
+</head>
+<body>
+    <div>
+    <h2 class="text-center" style="margin-top: 50px;">Kocka számítások</h2>
+    </div>
+    <div class="row" style="margin-top: 100px;">
+        <div class="col-sm-6 col-md-6 col-lg-3">
+            <div class="card text-center bg">
+                <img
+                  src="https://matek4u.hu/wp-content/uploads/2020/01/kocka_terfogata.jpg"
+                  class="card-img-bottom" style="width: auto; height: auto;"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Kocka</h5>
+                  <p class="card-text">Részletek</p>
+                  <a href="index.html" class="btn btn-outline-danger">Vissza a főoldalra</a>
+                </div>
+              </div>
+            </div>
+        <div style="margin-left: 50px;">
+        <h5>Felszín, térfogat kiszámítása:</h5><br><br>
+        <form>
+        <label>Hány cm az a oldal?</label>
+        <input type="text" id="oldal"><br><br>
+        <input type="button" value="Kiszámolás" onclick="szamolasKocka()"><br><br>
+        <p class="font-weight-bolder" id="felszin"> </p>
+        <p class="font-weight-bolder" id="terfogat"> </p>
+        </form>
+        </div>
+    </div>
+</body>
+</html>
