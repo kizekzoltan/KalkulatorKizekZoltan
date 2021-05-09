@@ -6,17 +6,15 @@ function szamolasNegyzet() {
     document.getElementById("kerulet").innerHTML = negyzetKerulet;
   }
 
-function szamolasHaromszog(){
-    var aOldal = document.getElementById("aoldal").value;
-    var bOldal = document.getElementById("boldal").value;
-    var cOldal = document.getElementById("coldal").value;
-    var magassag = document.getElementById("magassag").value;
+function szamolasKor(){
+    var sugar = document.getElementById("sugar").value;
+    var pi = 3.14
     
-    var haromszogTerulet = "A területe " + (aOldal * magassag) / 2 + " cm.";
-    document.getElementById("terulet").innerHTML = haromszogTerulet;
+    var korTerulet = "A területe " + (sugar*sugar) * pi + " cm.";
+    document.getElementById("terulet").innerHTML = korTerulet;
 
-    var haromszogKerulet = aOldal+bOldal+cOldal;
-    document.getElementById("kerulet").innerHTML = haromszogKerulet;
+    var korKerulet = "A kerülete " + (2 * sugar) * pi + " cm";
+    document.getElementById("kerulet").innerHTML = korKerulet;
   }
 
 function szamolasKocka(){
@@ -36,3 +34,31 @@ function szamolasTeglatest(){
     var teglatestTerfogat = "A téglatest térfogata " + aOldal*bOldal*cOldal + " cm.";
     document.getElementById("terfogat").innerHTML = teglatestTerfogat;
   }
+
+  function validateForm() {
+    var ertekOldal=document.getElementById("oldal").value;
+    if (ertekOldal=="0"){
+      alert("Ez az érték nem megfelelő!");
+      return false;
+    } 
+    var ertekA=document.getElementById("a").value;
+    if (ertekA=="0"){
+      alert("Ez az érték nem megfelelő!");
+      return false;
+    }
+    var ertekB=document.getElementById("b").value;
+    if (ertekB=="0"){
+      alert("Ez az érték nem megfelelő!");
+      return false;
+    }
+    var ertekC=document.getElementById("c").value;
+    if (ertekC=="0"){
+      alert("Ez az érték nem megfelelő!");
+      return false;
+    }
+    var ertekM=document.getElementById("magassag").value;
+    if (ertekM=="0"){
+        alert("Ez az érték nem megfelelő!");
+        return false;
+    }
+}

@@ -30,14 +30,13 @@
             </div>
         <div style="margin-left: 50px;">
         <h5>Felszín, térfogat kiszámítása:</h5><br><br>
-        <form>
+        <form oninput="return validateForm()">
         <label>Hány cm az a oldal?</label><br>
-        <input type="text" id="a" placeholder=" cm"><br><br>
+        <input oninput="szamolasTeglatest()" type="text" id="a" placeholder=" cm"><br><br>
         <label>Hány cm a b oldal?</label><br>
-        <input type="text" id="b" placeholder=" cm"><br><br>
+        <input oninput="szamolasTeglatest()" type="text" id="b" placeholder=" cm"><br><br>
         <label>Hány cm a c oldal?</label><br>
-        <input type="text" id="c" placeholder=" cm"><br><br>
-        <input type="button" value="Kiszámolás" onclick="szamolasTeglatest()"><br><br>
+        <input oninput="szamolasTeglatest()" type="text" id="c" placeholder=" cm"><br><br>
         <label>Eredmény</label><br>
         <p class="font-weight-bolder" id="felszin"> </p>
         <p class="font-weight-bolder" id="terfogat"> </p>
