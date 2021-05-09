@@ -4,7 +4,14 @@ function szamolasNegyzet() {
     document.getElementById("terulet").innerHTML = negyzetTerulet;
     var negyzetKerulet = "A kerülete " + aOldal * 4 + " cm.";
     document.getElementById("kerulet").innerHTML = negyzetKerulet;
+
+    /*
+    if(aOldal <= 0){
+      alert("Az érték nem lehet nulla, vagy negatív szám!")
+      document.getElementById("oldal").value = "";
+    }
   }
+    */
 
 function szamolasKor(){
     var sugar = document.getElementById("sugar").value;
@@ -34,31 +41,3 @@ function szamolasTeglatest(){
     var teglatestTerfogat = "A téglatest térfogata " + aOldal*bOldal*cOldal + " cm.";
     document.getElementById("terfogat").innerHTML = teglatestTerfogat;
   }
-
-  function validateForm() {
-    var ertekOldal=document.getElementById("oldal").value;
-    if (ertekOldal=="0"){
-      alert("Ez az érték nem megfelelő!");
-      return false;
-    } 
-    var ertekA=document.getElementById("a").value;
-    if (ertekA=="0"){
-      alert("Ez az érték nem megfelelő!");
-      return false;
-    }
-    var ertekB=document.getElementById("b").value;
-    if (ertekB=="0"){
-      alert("Ez az érték nem megfelelő!");
-      return false;
-    }
-    var ertekC=document.getElementById("c").value;
-    if (ertekC=="0"){
-      alert("Ez az érték nem megfelelő!");
-      return false;
-    }
-    var ertekS=document.getElementById("sugar").value;
-    if (ertekS=="0"){
-        alert("Ez az érték nem megfelelő!");
-        return false;
-    }
-}
