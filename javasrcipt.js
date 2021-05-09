@@ -12,6 +12,7 @@ function szamolasNegyzet() {
     }
   }
     */
+}
 
 function szamolasKor(){
     var sugar = document.getElementById("sugar").value;
@@ -40,4 +41,4 @@ function szamolasTeglatest(){
     document.getElementById("felszin").innerHTML = teglatestFelszin;
     var teglatestTerfogat = "A téglatest térfogata " + aOldal*bOldal*cOldal + " cm.";
     document.getElementById("terfogat").innerHTML = teglatestTerfogat;
-  }
+}
