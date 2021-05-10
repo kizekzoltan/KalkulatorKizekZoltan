@@ -16,7 +16,7 @@ function szamolasKor(){
     var korTerulet = "A területe " + (sugar*sugar) * pi + " cm<sup>2</sup>.";
     document.getElementById("terulet").innerHTML = korTerulet;
 
-    var korKerulet = "A kerülete " + (2 * sugar) * pi + " cm";
+    var korKerulet = "A kerülete " + (2 * sugar) * pi + " cm.";
     document.getElementById("kerulet").innerHTML = korKerulet;
 
   }
