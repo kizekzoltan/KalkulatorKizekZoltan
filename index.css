@@ -1,7 +1,10 @@
 body{
     background: url("https://a-static.besthdwallpaper.com/3d-geometriai-formak-tapeta-1920x1080-16982_48.jpg")
     no-repeat center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
     background-size: cover;
+    -o-background-size: cover;
 }
 
 .card-body{
