@@ -1,1 +1,1 @@
-Ez egy Kizek Zoltán által készített kalkulátor. Az oldal a https://kizekzoltan.github.io/kalkulatorKizekZoltan/ címen érhető el.
+Ez egy Kizek Zoltán által készített kalkulátor. Az oldal a https://kizekzoltan.github.io/Kalkulator_KizekZoltan/ címen érhető el.
